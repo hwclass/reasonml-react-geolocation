@@ -10,4 +10,6 @@ S /Users/hwclass/Repos/reasonml-react-geolocation/node_modules/bs-director/lib/o
 B /Users/hwclass/Repos/reasonml-react-geolocation/node_modules/bs-director/lib/ocaml
 S src
 B lib/bs/src
+S src/component
+B lib/bs/src/component
 ####BSB GENERATED: NO EDIT}

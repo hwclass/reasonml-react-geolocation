@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    geolocation: './src/js/index.js'
+    simple: './lib/js/src/simple/simpleRoot.js'
   },
   output: {
     path: path.join(__dirname, "bundledOutputs"),

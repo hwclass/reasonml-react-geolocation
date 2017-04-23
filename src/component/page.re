@@ -1,7 +1,7 @@
-module Geolocation = {
+module Page = {
   include ReactRe.Component;
   type props = {message: string};
-  let name = "Geolocation";
+  let name = "Page";
   let handleClick _ _ => {
     Js.log "clicked!";
     None
@@ -10,6 +10,6 @@ module Geolocation = {
     <div onClick=(updater handleClick)> (ReactRe.stringToElement props.message) </div>;
 };
 
-include ReactRe.CreateComponent Geolocation;
+include ReactRe.CreateComponent Page;
 
 let createElement ::message => wrapProps {message: message};
