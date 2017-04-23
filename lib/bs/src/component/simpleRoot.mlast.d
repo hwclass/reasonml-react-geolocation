@@ -1,1 +1,0 @@
-src/component/simpleRoot.cmj : src/component/page.cmj
