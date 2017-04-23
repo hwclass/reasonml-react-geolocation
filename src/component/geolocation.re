@@ -1,4 +1,10 @@
-let geolocation = Js.Global.navigator.geolocation (fun (geoposition) => Js.log geoposition);
+/*
+ * Since ther is not a wrapper for some global interfaces for methods like HTML5 API methods,
+ * there should be added some "native" JS functionalities into the incubator project
+ * in this link, https://github.com/BuckleTypes/bs-webapi-incubator
+  let geolocation = Js.Global.navigator.geolocation (fun (geoposition) => Js.log geoposition);
+ * 
+ */
 
 module Geolocation = {
   include ReactRe.Component;

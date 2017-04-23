@@ -55,3 +55,11 @@
 150	166	0	src/component/geolocation.mlast.d	56fc943c0587f0aa
 0	41	0	src/component/geolocation.mlast	9ee24deb8a241a77
 42	48	0	src/component/geolocation.mlast.d	56fc943c0587f0aa
+0	148	0	src/component/geolocation.mlast	9ee24deb8a241a77
+148	163	0	src/component/geolocation.mlast.d	56fc943c0587f0aa
+0	26	0	src/component/geolocation.cmj	c331c85025bf58e1
+0	26	0	/Users/hwclass/Repos/reasonml-react-geolocation/lib/js/src/component/geolocation.js	c331c85025bf58e1
+0	26	0	src/component/geolocation.cmi	c331c85025bf58e1
+26	43	0	src/component/root.cmj	20f33a9f0215f7f0
+26	43	0	/Users/hwclass/Repos/reasonml-react-geolocation/lib/js/src/component/root.js	20f33a9f0215f7f0
+26	43	0	src/component/root.cmi	20f33a9f0215f7f0
