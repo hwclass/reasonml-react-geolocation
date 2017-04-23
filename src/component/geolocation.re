@@ -1,18 +1,38 @@
+let geolocation = Js.Global.navigator.geolocation (fun (geoposition) => Js.log geoposition);
+
+module Geolocation = {
+  include ReactRe.Component;
+  type props = {message: string};
+  let name = "Geolocation";
+  let someMessage = "asdasda";
+  let render {props, state, updater, handler} => {
+    <div>(ReactRe.stringToElement props.message)</div>;
+  }
+};
+
+include ReactRe.CreateComponent Geolocation;
+
+let createElement ::message => wrapProps {message: message};
+
+/*
 module Geolocation = {
   include ReactRe.Component.Stateful;
-  type state = {lat: float, lng: float};
-  type props = {message: string};
+  type state = {
+    lat: float, lng: float
+  };
+  type props = {
+    message: string
+  };
   let getInitialState _ /* props */ => {
     lat: 0.0,
     lng: 0.0
   };
   let name = "Geolocation";
-  
+
   let componentDidMount {setState} => {
-    let stateSetter {state} => {
-      /* What is the current geolocation of the user? */
-      {...state, lat: 1.1, lng: 1.1}
-    };
+      let stateSetter {state} => {
+        let now = Js.Date.now ();
+      };
     setState stateSetter;
     None
   };
@@ -20,8 +40,9 @@ module Geolocation = {
   let render {props, state, updater} => {
     <div> (ReactRe.stringToElement props.message) </div>;
   }
-};
+}
 
 include ReactRe.CreateComponent Geolocation;
 
 let createElement ::message => wrapProps {message: message};
+*/
