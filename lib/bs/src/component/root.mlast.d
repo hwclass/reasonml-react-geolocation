@@ -1,0 +1,1 @@
+src/component/root.cmj : src/component/geolocation.cmj
